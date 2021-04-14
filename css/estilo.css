@@ -1,3 +1,143 @@
 body{
     font-family: 'Open Sans', sans-serif;
+    color: #666;
+    line-height: 1.2;
+}
+a{
+    transition: color .3s linear;
+}
+
+p{
+    margin: 0 0 1.5em;
+}
+
+sub, sup{
+    font-size: 12px;
+}
+
+blockquote{
+    border-left: 5px solid #efefef;
+    margin: 1.5em 0;
+    padding: .5em 0 .5em 1.5em;  
+}
+
+code{
+    background: #f7f7f7;
+    border-radius: .35em;
+    border: 2px solid #efefef;
+    font-size: .9em;
+    padding: 0.25em 0.65em;
+    display:block;
+    font-family:"Courier New", Courier, monospace;
+    color: #929292;
+}
+
+pre code{
+    display:block;
+}
+
+ul, ol{
+    margin: 0;
+    padding: 0;
+    padding-left: .5em;
+}
+
+li{
+    padding-left: .5em;
+}
+
+
+h1, h2, h3, h4, h5, h6{
+    font-weight: normal;
+    margin:  1em 0;
+}
+.ul-icons{
+    list-style-type: none;
+    padding-left: 0;
+}
+.ul-icons li{
+    display: inline-block;
+    color:white;
+    font-size: 3em;
+}
+.main-header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 20%;
+    background: black;
+    padding: 50px 0 50px 10px;
+    color:white;
+    align-items: center;    
+}
+.main-header-link{
+    font-size: 14px;
+    line-height: 3;
+    font-weight: normal;
+    text-align: center;
+    color:white;
+    text-decoration: none;
+    background-color: black;
+    padding: .75em 2em;
+    border-radius: 0px;
+    font-size:.8em;
+    text-align: center;
+    width: 100%;
+    transition:all .5s;
+    cursor:pointer;
+
+}
+.main-header-link:hover{
+    text-decoration: none;
+    color:black;
+    background-color: white;
+    transition:color .5s;
+}
+.main-link-photo img{
+    border:0;
+    border-radius: 50%;
+    overflow: hidden;
+
+}
+.main-header-link-selected{
+    font-size: 14px;
+    line-height: 3;
+    font-weight: normal;
+    text-align: center;
+    color:black;
+    text-decoration: none;
+    background-color: white;
+    padding: .75em 2em;
+    border-radius: 0px;
+    font-size:.8em;
+    text-align: center;
+    width: 100%;
+    transition:all .5s;
+    cursor:pointer;
+}
+
+
+.main-content{
+    width: 80%;
+    margin-left: 20%;
+    padding: 50px 30px 50px;
+    box-sizing: border-box;
+}
+
+.main-footer{
+    font-size: 12px;
+    position: fixed;
+    bottom:0px;
+    width:20%;
+    left:0;
+    color:white;
+    padding: 50px 10px 50px 5px;
+}
+.icon-link{
+    color:white;
+}
+.icon-link:hover{
+    color: #666;
+    transition: color .3s;
 }
