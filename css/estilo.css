@@ -65,12 +65,15 @@ h1, h2, h3, h4, h5, h6{
     top: 0;
     left: 0;
     height: 100%;
-    width: 20%;
-    background: black;
-    padding: 50px 0 50px 10px;
+    width: 250px;
+    background-color: black;
+    /*padding: 50px 0 50px 10px;*/
+    padding-top: 30px;
     color:white;
-    align-items: center;    
+    /*align-items: center;*/
+    overflow-x: hidden;    
 }
+/*
 .main-header-link{
     font-size: 14px;
     line-height: 3;
@@ -93,6 +96,13 @@ h1, h2, h3, h4, h5, h6{
     color:black;
     background-color: white;
     transition:color .5s;
+}*/
+.main-header a{
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    display: block;
 }
 .main-link-photo img{
     border:0;
@@ -140,4 +150,10 @@ h1, h2, h3, h4, h5, h6{
 .icon-link:hover{
     color: #666;
     transition: color .3s;
+}
+.carousel{
+    height: 340px;
+    width: 400px;
+    display:flex;
+    justify-content: center;
 }
