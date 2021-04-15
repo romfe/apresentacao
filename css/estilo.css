@@ -139,4 +139,21 @@ h1, h2, h3, h4, h5, h6{
     width: 400px;
     display:flex;
     justify-content: center;
+
 }
+.carousel-photos:hover{
+    opacity: .6;
+}
+.carousel-photos{
+    height: 325px;
+    width: 500px;
+    display:flex;
+    justify-content: center;
+    transition:all .8s;
+}
+
+.carouselWrapper {
+    display: flex;
+    justify-content: center;
+    widows: 100%;
+  }
