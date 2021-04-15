@@ -9,6 +9,7 @@ a{
 
 p{
     margin: 0 0 1.5em;
+    line-height: 1.5;
 }
 
 sub, sup{
@@ -73,58 +74,22 @@ h1, h2, h3, h4, h5, h6{
     /*align-items: center;*/
     overflow-x: hidden;    
 }
-/*
-.main-header-link{
-    font-size: 14px;
-    line-height: 3;
-    font-weight: normal;
-    text-align: center;
-    color:white;
-    text-decoration: none;
-    background-color: black;
-    padding: .75em 2em;
-    border-radius: 0px;
-    font-size:.8em;
-    text-align: center;
-    width: 100%;
-    transition:all .5s;
-    cursor:pointer;
-
-}
-.main-header-link:hover{
-    text-decoration: none;
-    color:black;
-    background-color: white;
-    transition:color .5s;
-}*/
 .main-header a{
     padding: 6px 8px 6px 16px;
     text-decoration: none;
     font-size: 20px;
     color: white;
     display: block;
+    transition: all .75s;
 }
 .main-link-photo img{
     border:0;
     border-radius: 50%;
     overflow: hidden;
-
 }
-.main-header-link-selected{
-    font-size: 14px;
-    line-height: 3;
-    font-weight: normal;
-    text-align: center;
+.main-header a:hover{
     color:black;
-    text-decoration: none;
     background-color: white;
-    padding: .75em 2em;
-    border-radius: 0px;
-    font-size:.8em;
-    text-align: center;
-    width: 100%;
-    transition:all .5s;
-    cursor:pointer;
 }
 
 
@@ -133,6 +98,24 @@ h1, h2, h3, h4, h5, h6{
     margin-left: 20%;
     padding: 50px 30px 50px;
     box-sizing: border-box;
+}
+.fotos{
+    max-width: 300px;
+    max-height: 300px;
+    transition:all .5s;
+    border-radius: 2%;
+}
+.esquerda{
+    float:left;
+    margin-right: 20px;
+    border-radius: 2%;
+}
+.fotos:hover{
+    opacity: .6;
+}
+.direita{
+    float:right;
+    margin-left: 20px;
 }
 
 .main-footer{
